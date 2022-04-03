@@ -1,0 +1,37 @@
+// Latest update: Mon Apr  4 06:40:01 JST 2022
+//
+// VSCode の「ターミナル」で WSL を使っている際, Control キーを VSCode に奪われないようにするための設定
+// 必要に応じて適宜増減すること
+// 「基本設定：キーボードショートカットを開く(JSON)」を開いて以下を追加すればよい
+//
+// Settings to prevent VSCode from stealing the Control key when using WSL in VSCode's "Terminal".
+// Edit them as needed.
+// Open "Preferences: Open Keyboard Shortcuts (JSON)" then add the followings.
+//
+[
+    {
+        "key": "ctrl+a",
+        "command": "terminal.integrated.commandsToSkipShell",
+        "when": "terminalFocus"
+    },{
+        "key": "ctrl+e",
+        "command": "terminal.integrated.commandsToSkipShell",
+        "when": "terminalFocus"
+    },{
+        "key": "ctrl+f",
+        "command": "terminal.integrated.commandsToSkipShell",
+        "when": "terminalFocus"
+    },{
+        "key": "ctrl+k",
+        "command": "terminal.integrated.commandsToSkipShell",
+        "when": "terminalFocus"
+    },{
+        "key": "ctrl+n",
+        "command": "terminal.integrated.commandsToSkipShell",
+        "when": "terminalFocus"
+    },{
+        "key": "ctrl+p",
+        "command": "terminal.integrated.commandsToSkipShell",
+        "when": "terminalFocus"
+    }
+]
