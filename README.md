@@ -3,9 +3,12 @@
 Various settings (public)
 
     ./pZone--public--settings
-     ├── README.md
-     └── VSCode
-         └── README.md
+     ├──   README.md
+     ├──  VSCode/
+     │   ├──   README.md
+     │   └──   make-controlkeys-available-on-terminal.txt
+     └──  mosquitto/
+         └──   mosquitto.conf
      
-     1 directory, 2 files (Mon Apr  4 06:27:24 JST 2022)
+     2 directories, 4 files (Sat Jul  2 21:43:59 JST 2022)
 
