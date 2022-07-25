@@ -16,3 +16,5 @@ Various settings (public)
 # Note: url = git@github.com:hohno-46466/pZone--public--settings.git
 
 # Note: url = https://github.com/hohno-46466/pZone--public--settings
+
+-EOF-
