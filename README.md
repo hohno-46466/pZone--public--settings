@@ -1,4 +1,4 @@
-# pZone--public--settings
+# GitHub/pZone--public--settings
 
 Various settings (public)
 
