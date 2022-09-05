@@ -2,7 +2,7 @@
 
 Various settings (public)
 
-    ./pZone--public--settings/
+    ./pZone--public--settings
      ├──  README.md
      ├──  README.md.old
      ├──  VSCode/
@@ -11,7 +11,7 @@ Various settings (public)
      └──  mosquitto/
          └──  mosquitto.conf
      
-     2 directories, 5 files (Tue Aug 30 13:17:43 JST 2022)
+     2 directories, 5 files (Sat Sep  3 17:32:44 JST 2022)
 
 
 Note: URL = https://github.com/hohno-46466/pZone--public--settings
