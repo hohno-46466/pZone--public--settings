@@ -1,0 +1,22 @@
+[
+    {
+        "key": "ctrl+shift+1",
+        "command": "shell-command.edit"
+    },
+    {
+        "key": "ctrl+shift+3",
+        "command": "shell.runCommand"
+    },
+    {
+        "key": "ctrl+shift+4",
+        "command": "shell.runCommandAtFileLocation"
+    },
+    {
+        "key": "ctrl+x ctrl+d",
+        "command": "workbench.action.files.openFileFolder"
+    },
+    {
+        "key": "ctrl+x ctrl+k",
+        "command": "workbench.action.openGlobalKeybindings"
+    }        
+]
