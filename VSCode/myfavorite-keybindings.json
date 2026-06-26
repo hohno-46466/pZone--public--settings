@@ -1,22 +1,39 @@
+//
+// 設定の読み込み手順
+//
+// 1. キーボードショートカット設定を開く
+//   Windows/Linux: Ctrl + K を押した後に Ctrl + S を押す
+//   Mac: Cmd + K を押した後に Cmd + S を押す
+//
+// 2. JSON ファイルの編集画面に切り替える画面の右右上（右上隅）にある、「ファイルに矢印が巻き付いたようなアイコン（Open Keyboard Shortcuts (JSON)）」をクリック
+//
+// 3. コードを貼り付けて保存する
+//   開いた keybindings.json の [ と ] の間に、先ほどの JSON データを貼り付ける
+//   既に他の設定が書かれている場合は、カンマ , で区切って追記
+//   ファイルを保存（Ctrl + S または Cmd + S）すれば、再起動なしで即座に反映される。
+
 [
+    // ---- シェルコマンド関連の拡張機能設定 ----
     {
         "key": "ctrl+shift+1",
-        "command": "shell-command.edit"
+        "command": "shell-command.edit" // コマンドの編集画面を開く
     },
     {
         "key": "ctrl+shift+3",
-        "command": "shell.runCommand"
+        "command": "shell.runCommand" // 登録済みのコマンドを実行
     },
     {
         "key": "ctrl+shift+4",
-        "command": "shell.runCommandAtFileLocation"
+        "command": "shell.runCommandAtFileLocation" // 現在のファイルの場所でコマンドを実行
     },
+
+    // ---- VS Code 標準機能のショートカット ----
     {
         "key": "ctrl+x ctrl+d",
-        "command": "workbench.action.files.openFileFolder"
+        "command": "workbench.action.files.openFileFolder" // ファイル・フォルダを開く
     },
     {
         "key": "ctrl+x ctrl+k",
-        "command": "workbench.action.openGlobalKeybindings"
+        "command": "workbench.action.openGlobalKeybindings" // ショートカット設定画面を開く
     }        
 ]
